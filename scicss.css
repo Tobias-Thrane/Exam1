@@ -1,0 +1,98 @@
+body{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container h2{
+    margin-top: 60px;
+}
+
+#navbar{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 1px;
+    max-width: 1200px;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+    
+}
+
+#navbar li{
+    display: inline;
+    padding-left: 5px;
+}
+
+#navbar a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    border: solid rgb(0, 0, 0) 1px;
+    border-radius: 25px;
+    padding: 6px;
+    background: black;
+}
+
+#intro{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-image: url("stars.png");
+    padding: 1px 1px;
+    border: solid black 3px;
+    border-radius: 25px;
+    margin: auto;
+    max-width: 500px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.half-img{
+    width: 100%;
+}
+
+.question{
+	font-weight: 600;
+}
+.answers {
+  margin-bottom: 20px;
+}
+.answers label{
+  display: block;
+}
+#submit{
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: #279;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+#submit:hover{
+	background-color: #38a;
+}
+
+
+.footer{
+        background: black;
+        color:#fff;
+        text-align: center;
+        padding: 20px;
+        margin-top: 120px;
+    }
+.footer a {
+    color: white;
+}
